@@ -1,0 +1,9 @@
+c:\users\анастасия\documents\visual studio 2017\Projects\SlotsGame\SlotsGame\bin\Debug\SlotsGame.exe.config
+c:\users\анастасия\documents\visual studio 2017\Projects\SlotsGame\SlotsGame\bin\Debug\SlotsGame.exe
+c:\users\анастасия\documents\visual studio 2017\Projects\SlotsGame\SlotsGame\bin\Debug\SlotsGame.pdb
+c:\users\анастасия\documents\visual studio 2017\Projects\SlotsGame\SlotsGame\obj\Debug\SlotsGame.csprojResolveAssemblyReference.cache
+c:\users\анастасия\documents\visual studio 2017\Projects\SlotsGame\SlotsGame\obj\Debug\SlotsGame.MainForm.resources
+c:\users\анастасия\documents\visual studio 2017\Projects\SlotsGame\SlotsGame\obj\Debug\SlotsGame.Properties.Resources.resources
+c:\users\анастасия\documents\visual studio 2017\Projects\SlotsGame\SlotsGame\obj\Debug\SlotsGame.csproj.GenerateResource.Cache
+c:\users\анастасия\documents\visual studio 2017\Projects\SlotsGame\SlotsGame\obj\Debug\SlotsGame.exe
+c:\users\анастасия\documents\visual studio 2017\Projects\SlotsGame\SlotsGame\obj\Debug\SlotsGame.pdb
