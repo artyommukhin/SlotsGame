@@ -34,6 +34,10 @@ namespace SlotsGame
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.PlayButton = new System.Windows.Forms.Button();
+            this.ResultText = new System.Windows.Forms.Label();
+            this.EnterBalance = new System.Windows.Forms.TextBox();
+            this.Cash = new System.Windows.Forms.Label();
+            this.EnterMoney = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
@@ -73,21 +77,67 @@ namespace SlotsGame
             this.PlayButton.UseVisualStyleBackColor = true;
             this.PlayButton.Click += new System.EventHandler(this.PlayButton_Click);
             // 
+            // ResultText
+            // 
+            this.ResultText.AutoSize = true;
+            this.ResultText.Font = new System.Drawing.Font("Microsoft Sans Serif", 25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.ResultText.Location = new System.Drawing.Point(249, 82);
+            this.ResultText.Name = "ResultText";
+            this.ResultText.Size = new System.Drawing.Size(74, 39);
+            this.ResultText.TabIndex = 4;
+            this.ResultText.Text = "123";
+            this.ResultText.Click += new System.EventHandler(this.ResultText_Click);
+            // 
+            // EnterBalance
+            // 
+            this.EnterBalance.Location = new System.Drawing.Point(12, 169);
+            this.EnterBalance.Name = "EnterBalance";
+            this.EnterBalance.Size = new System.Drawing.Size(100, 20);
+            this.EnterBalance.TabIndex = 5;
+            this.EnterBalance.Text = "100";
+            // 
+            // Cash
+            // 
+            this.Cash.AutoSize = true;
+            this.Cash.Font = new System.Drawing.Font("Microsoft Sans Serif", 25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Cash.Location = new System.Drawing.Point(12, 82);
+            this.Cash.Name = "Cash";
+            this.Cash.Size = new System.Drawing.Size(159, 39);
+            this.Cash.TabIndex = 6;
+            this.Cash.Text = "Balance: ";
+            this.Cash.Click += new System.EventHandler(this.Cash_Click);
+            // 
+            // EnterMoney
+            // 
+            this.EnterMoney.Location = new System.Drawing.Point(12, 195);
+            this.EnterMoney.Name = "EnterMoney";
+            this.EnterMoney.Size = new System.Drawing.Size(75, 23);
+            this.EnterMoney.TabIndex = 7;
+            this.EnterMoney.Text = "Enter";
+            this.EnterMoney.UseVisualStyleBackColor = true;
+            this.EnterMoney.Click += new System.EventHandler(this.EnterMoney_Click);
+            // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(335, 320);
+            this.Controls.Add(this.EnterMoney);
+            this.Controls.Add(this.Cash);
+            this.Controls.Add(this.EnterBalance);
+            this.Controls.Add(this.ResultText);
             this.Controls.Add(this.PlayButton);
             this.Controls.Add(this.pictureBox3);
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.pictureBox1);
             this.Name = "MainForm";
             this.Text = "Slots";
+            this.Activated += new System.EventHandler(this.MainForm_Activated);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -97,6 +147,10 @@ namespace SlotsGame
         private System.Windows.Forms.PictureBox pictureBox2 = new PictureBox();
         private System.Windows.Forms.PictureBox pictureBox3 = new PictureBox();
         private Button PlayButton;
+        private Label ResultText;
+        private TextBox EnterBalance;
+        private Label Cash;
+        private Button EnterMoney;
     }
 }
 

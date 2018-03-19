@@ -25,11 +25,10 @@ namespace SlotsGame
         public static void Roll(PictureBox pb1, PictureBox pb2, PictureBox pb3)
         {
             Random r = new Random();
-
+            Label ResultText = new Label();
             pb1.Image = new Bitmap(pics[r.Next(8)],pb1.Size);
             pb2.Image = new Bitmap(pics[r.Next(8)],pb2.Size);
             pb3.Image = new Bitmap(pics[r.Next(8)],pb3.Size);
-
         } 
     }
 }
