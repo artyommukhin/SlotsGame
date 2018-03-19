@@ -96,7 +96,6 @@ namespace SlotsGame
             this.ResultLabel.TabIndex = 4;
             this.ResultLabel.Text = "Play!";
             this.ResultLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.ResultLabel.Click += new System.EventHandler(this.ResultLabel_Click);
             // 
             // MoneyInput
             // 
@@ -219,7 +218,6 @@ namespace SlotsGame
             this.Name = "MainForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Slots";
-            this.Activated += new System.EventHandler(this.MainForm_Activated);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
