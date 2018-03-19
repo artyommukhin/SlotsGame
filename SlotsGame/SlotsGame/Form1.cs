@@ -21,8 +21,7 @@ namespace SlotsGame
 
         private void PlayButton_Click(object sender, EventArgs e)
         {
-            SlotMachine.Roll(pictureBox1,pictureBox2,pictureBox3);
-            //pictureBox1.Image = new Bitmap(Image.FromFile(@"..\..\banana.png"), pictureBox1.Size);
+            SlotMachine.Roll(pictureBox1,pictureBox2,pictureBox3,ResultLabel);
         }
 
         private void ResultText_Click(object sender, EventArgs e)
