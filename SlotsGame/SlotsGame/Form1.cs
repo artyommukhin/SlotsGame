@@ -30,9 +30,11 @@ namespace SlotsGame
 
         private void MainForm_Activated(object sender, EventArgs e)
         {
-            // I found bug :) 
             int Money = 0;
+            if (Int32.Parse(BalanceCount.Text)<0)
+            {
             BalanceCount.Text +=Money;
+            }
         }
 
         private void ResultLabel_Click(object sender, EventArgs e)
