@@ -38,6 +38,7 @@ namespace SlotsGame
             this.EnterBalance = new System.Windows.Forms.TextBox();
             this.Cash = new System.Windows.Forms.Label();
             this.EnterMoney = new System.Windows.Forms.Button();
+            this.Cash2 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
@@ -102,9 +103,9 @@ namespace SlotsGame
             this.Cash.Font = new System.Drawing.Font("Microsoft Sans Serif", 25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.Cash.Location = new System.Drawing.Point(12, 82);
             this.Cash.Name = "Cash";
-            this.Cash.Size = new System.Drawing.Size(159, 39);
+            this.Cash.Size = new System.Drawing.Size(150, 39);
             this.Cash.TabIndex = 6;
-            this.Cash.Text = "Balance: ";
+            this.Cash.Text = "Balance:";
             this.Cash.Click += new System.EventHandler(this.Cash_Click);
             // 
             // EnterMoney
@@ -117,11 +118,21 @@ namespace SlotsGame
             this.EnterMoney.UseVisualStyleBackColor = true;
             this.EnterMoney.Click += new System.EventHandler(this.EnterMoney_Click);
             // 
+            // Cash2
+            // 
+            this.Cash2.AutoSize = true;
+            this.Cash2.Font = new System.Drawing.Font("Microsoft Sans Serif", 25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Cash2.Location = new System.Drawing.Point(156, 82);
+            this.Cash2.Name = "Cash2";
+            this.Cash2.Size = new System.Drawing.Size(0, 39);
+            this.Cash2.TabIndex = 8;
+            // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(335, 320);
+            this.Controls.Add(this.Cash2);
             this.Controls.Add(this.EnterMoney);
             this.Controls.Add(this.Cash);
             this.Controls.Add(this.EnterBalance);
@@ -152,6 +163,7 @@ namespace SlotsGame
         private TextBox EnterBalance;
         private Label Cash;
         private Button EnterMoney;
+        private Label Cash2;
     }
 }
 
