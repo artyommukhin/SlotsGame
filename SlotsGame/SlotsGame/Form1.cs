@@ -16,37 +16,28 @@ namespace SlotsGame
         public MainForm()
         {
         InitializeComponent();
-            
         }
 
         private void PlayButton_Click(object sender, EventArgs e)
         {
-            SlotMachine.Roll(pictureBox1,pictureBox2,pictureBox3, ResultLabel);
+            SlotMachine.Roll(pictureBox1, pictureBox2, pictureBox3, ResultLabel, BalanceCount, WagerInput, TotalWageredInfo, TotalEarnsInfo);
         }
 
-        private void ResultText_Click(object sender, EventArgs e)
+        private void AddMoneyButton_Click(object sender, EventArgs e)
         {
-
-        }
-
-        private void Cash_Click(object sender, EventArgs e)
-        {
-        
-        }
-
-        private void EnterMoney_Click(object sender, EventArgs e)
-        {
-            if (Int32.Parse(Cash2.Text)>=0)
-            {
-                Cash2.Text = (Int32.Parse(Cash2.Text) + Int32.Parse(EnterBalance.Text)).ToString();
-            }
-
+            SlotMachine.AddMoney(BalanceCount,MoneyInput);
         }
 
         private void MainForm_Activated(object sender, EventArgs e)
         {
+            // I found bug :) 
             int Money = 0;
-            Cash2.Text +=Money;
+            BalanceCount.Text +=Money;
+        }
+
+        private void ResultLabel_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
