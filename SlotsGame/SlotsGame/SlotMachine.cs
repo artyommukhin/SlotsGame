@@ -22,13 +22,37 @@ namespace SlotsGame
             Image.FromFile(@"..\..\plum.png")
         };
 
-        public static void Roll(PictureBox pb1, PictureBox pb2, PictureBox pb3)
+        public static void Roll(PictureBox pb1, PictureBox pb2, PictureBox pb3, Label result)
         {
+            //--balance
+            result.Text = "";
             Random r = new Random();
-            Label ResultText = new Label();
-            pb1.Image = new Bitmap(pics[r.Next(8)],pb1.Size);
-            pb2.Image = new Bitmap(pics[r.Next(8)],pb2.Size);
-            pb3.Image = new Bitmap(pics[r.Next(8)],pb3.Size);
-        } 
+
+            int left = r.Next(8);
+            int middle = r.Next(8);
+            int right = r.Next(8);
+
+            pb1.Image = new Bitmap(pics[left],pb1.Size);
+            pb2.Image = new Bitmap(pics[middle],pb2.Size);
+            pb3.Image = new Bitmap(pics[right],pb3.Size);
+
+            if (left==middle||left==right||right==middle)
+            {
+                result.Text = "2 of a kind!\n" +
+                              "You won $200";
+                //++balance
+            }
+            else if (left == middle && middle == right)
+            {
+                result.Text = "3 of a kind!\n" +
+                              "You won $500";
+                //++balance
+                
+            }
+            else
+            {
+                result.Text = "You lose";
+            }
+        }
     }
 }

@@ -16,3 +16,12 @@ C:\Users\Sveta\Documents\GitHub\SlotsGame\SlotsGame\SlotsGame\obj\Debug\SlotsGam
 C:\Users\Sveta\Documents\GitHub\SlotsGame\SlotsGame\SlotsGame\obj\Debug\SlotsGame.csproj.GenerateResource.Cache
 C:\Users\Sveta\Documents\GitHub\SlotsGame\SlotsGame\SlotsGame\obj\Debug\SlotsGame.exe
 C:\Users\Sveta\Documents\GitHub\SlotsGame\SlotsGame\SlotsGame\obj\Debug\SlotsGame.pdb
+C:\Users\Анастасия\Documents\SlotsGame\SlotsGame\SlotsGame\obj\Debug\SlotsGame.csprojResolveAssemblyReference.cache
+C:\Users\Анастасия\Documents\SlotsGame\SlotsGame\SlotsGame\obj\Debug\SlotsGame.MainForm.resources
+C:\Users\Анастасия\Documents\SlotsGame\SlotsGame\SlotsGame\obj\Debug\SlotsGame.Properties.Resources.resources
+C:\Users\Анастасия\Documents\SlotsGame\SlotsGame\SlotsGame\obj\Debug\SlotsGame.csproj.GenerateResource.Cache
+C:\Users\Анастасия\Documents\SlotsGame\SlotsGame\SlotsGame\obj\Debug\SlotsGame.exe
+C:\Users\Анастасия\Documents\SlotsGame\SlotsGame\SlotsGame\obj\Debug\SlotsGame.pdb
+C:\Users\Анастасия\Documents\SlotsGame\SlotsGame\SlotsGame\bin\Debug\SlotsGame.exe.config
+C:\Users\Анастасия\Documents\SlotsGame\SlotsGame\SlotsGame\bin\Debug\SlotsGame.exe
+C:\Users\Анастасия\Documents\SlotsGame\SlotsGame\SlotsGame\bin\Debug\SlotsGame.pdb
