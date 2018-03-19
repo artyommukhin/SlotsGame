@@ -7,3 +7,12 @@ c:\users\анастасия\documents\visual studio 2017\Projects\SlotsGame\Slot
 c:\users\анастасия\documents\visual studio 2017\Projects\SlotsGame\SlotsGame\obj\Debug\SlotsGame.csproj.GenerateResource.Cache
 c:\users\анастасия\documents\visual studio 2017\Projects\SlotsGame\SlotsGame\obj\Debug\SlotsGame.exe
 c:\users\анастасия\documents\visual studio 2017\Projects\SlotsGame\SlotsGame\obj\Debug\SlotsGame.pdb
+C:\Users\Sveta\Documents\GitHub\SlotsGame\SlotsGame\SlotsGame\bin\Debug\SlotsGame.exe.config
+C:\Users\Sveta\Documents\GitHub\SlotsGame\SlotsGame\SlotsGame\bin\Debug\SlotsGame.exe
+C:\Users\Sveta\Documents\GitHub\SlotsGame\SlotsGame\SlotsGame\bin\Debug\SlotsGame.pdb
+C:\Users\Sveta\Documents\GitHub\SlotsGame\SlotsGame\SlotsGame\obj\Debug\SlotsGame.csprojResolveAssemblyReference.cache
+C:\Users\Sveta\Documents\GitHub\SlotsGame\SlotsGame\SlotsGame\obj\Debug\SlotsGame.MainForm.resources
+C:\Users\Sveta\Documents\GitHub\SlotsGame\SlotsGame\SlotsGame\obj\Debug\SlotsGame.Properties.Resources.resources
+C:\Users\Sveta\Documents\GitHub\SlotsGame\SlotsGame\SlotsGame\obj\Debug\SlotsGame.csproj.GenerateResource.Cache
+C:\Users\Sveta\Documents\GitHub\SlotsGame\SlotsGame\SlotsGame\obj\Debug\SlotsGame.exe
+C:\Users\Sveta\Documents\GitHub\SlotsGame\SlotsGame\SlotsGame\obj\Debug\SlotsGame.pdb
